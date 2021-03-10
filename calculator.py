@@ -9,6 +9,7 @@ class Calculator:
             else:
                 print("Not math?!")
 
+# __name__ predefined variable which is equal to __main__ if this is ran directly in the program.
 if __name__ == "__main__":
     calculator = Calculator()
     while True:
